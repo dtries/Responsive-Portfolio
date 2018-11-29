@@ -1,0 +1,314 @@
+/* ------------Style Sheet for Portfolio Site --------------------------------*/
+
+
+/*------------------ Sets properties for top header and nav bar----------*/
+.top_knot {
+    /* position: fixed; */
+    /* text-align: left; */
+    /* top: 0;
+    padding: 0; */
+    z-index: 99;
+    margin-bottom: 9ch;
+    /* display: inl3ne; */
+} 
+
+h1 {
+    position: fixed;
+    margin: 0 auto 0 25.05%; 
+    /* display: inline-block; */
+    background-color: #474740;
+    font-size: 36px;
+    padding: 8px 25px 7px 25px;
+    color: #D3D3D3;
+    z-index: 10;
+
+}
+
+.The_Links {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 49px;
+    padding: 20px 0 0 0;
+    background-color: #D3D3D3;
+    overflow: hidden;
+
+}
+
+
+/*-----------------Navigation bar styling--------------------*/
+
+.topnav a {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 19px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+
+    /* Change link color when hovered upon */
+.topnav a:hover {
+    background-color: #6C8673;
+    color: #D3D3D3;
+}
+
+a.active {
+    background-color: #474740;
+    color: #D3D3D3;
+
+}
+
+#index {
+    margin: 0 0 0 60.9%; /*454px;*/ 
+}
+
+c {
+    color: #3A3A3A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Sets background image and basics for body of webpage */
+body {
+    background-image: url("../images/low_contrast_linen.png");
+    color: #D3D3D3;
+    margin: auto;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   }
+
+h2 {    
+    font-size: 36px;
+    color: #D3D3D3;
+}
+
+/*----------- Contact Page Styles--------------- */
+
+#contact_content {
+    position: relative;
+    width: 960px;
+    margin: auto auto 70px 25.05%;
+    background-color: #47474070;
+    font-size: 18px;    
+    padding:  5px 29px 30px 25px;
+}
+
+#name,
+#Email,
+#message {
+    width: 99.5%;
+    line-height: 1.5;
+}
+
+#message {
+    height: 200px;
+}
+
+
+
+/* ---------- Portfolio Page Styles-------------------- */
+
+#portfolio_content {
+    position: absolute;
+    width: 960px;
+    margin: auto auto 70px 25.05%;
+    background-color: #47474070;
+    padding:  5px 29px 30px 25px;
+}
+
+/* div > #the_place_holders {
+    position: relative;
+    text-align: center;
+} */
+
+.Pic-1,
+.Pic-2,
+.Pic-3,
+.Pic-4,
+.Pic-5 {
+    position: relative;
+    float: left;
+    padding: 0 25px 25px 0;
+}
+
+
+/* #P_Image_1,
+#P_Image_2,
+#P_Image_3,
+#P_Image_4,
+#P_Image_5 {
+    float: left;
+    padding: 0 25px 25px 0;
+} */
+
+#P_Image_1,
+#P_Image_2 {
+    padding-top: 16px;
+}
+
+
+
+#P_Image_1,
+#P_Image_2,
+#P_Image_3,
+#P_Image_4,
+#P_Image_5 {
+    position: relative;
+}
+
+/* Text on Image */
+.Text-Image-1,
+.Text-Image-2,
+.Text-Image-3,
+.Text-Image-4,
+.Text-Image-5 {
+    position: absolute;
+    width: 320px;
+    background-color: #474740;
+    color: #D3D3D3;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    text-align: center;
+    top: 70%;
+    left: 46.4%;
+    transform: translate(-50%, -50%);
+    opacity: .9;
+}
+
+/* .Text-Image-1,
+.Text-Image-3,
+.Text-Image-5, {
+right: 590px;
+}
+
+.Text-Image-2,
+.Text-Image-4 {
+    right: 295px;
+}
+
+.Text-Image-1,
+.Text-Image-2 {
+    bottom: -249px;
+}
+
+.Text-Image-3,
+.Text-Image-4 {
+    bottom: -515px;
+}
+
+.Text-Image-5 {
+    bottom: -781px; 
+} */
+
+
+
+
+/*--------------------Index Page Styles---------------------*/
+
+#index_content {
+    position: relative;
+    font-size: 20px;
+    /* border: solid orange; */
+    width: 960px;
+    margin: auto auto 70px 25.05%;
+    background-color: #47474070;
+    padding: 5px 29px 30px 25px;
+}
+
+#Head-Shot {
+    position: relative;
+    top: 8px;
+    float: left;
+    padding: 0 20px 0 0;
+    /* border: solid orangered; */
+}
+
+/* -----------footer styling-------------- */
+.footer {
+    position: fixed;
+    padding: 15px 0 5px 0;
+    margin: auto auto 0 0;
+    width: 100%;
+    text-align: center;
+    background-color: #474740;
+    bottom: 0px;
+    z-index: 99;
+}
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 980px) {
+
+    .footer {
+        background-color: blue;
+    }
+
+    #index_content,
+    #contact_content,
+    #portfolio_content {
+        position: absolute;
+        width: 690px;
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer {
+        background-color: orange;
+    }
+
+    #index_content,
+    #contact_content,
+    #portfolio_content {
+        position: absolute;
+        width: 488px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+
+    .top_knot {
+        /* position: static; */
+        text-align: center;
+        margin-bottom: 1ch;
+    }
+
+    h1 {
+        position: static;
+        margin: auto;
+    }
+
+    #index {
+        margin: auto; 
+    }
+
+    #index_content,
+    #contact_content,
+    #portfolio_content {
+        position: absolute;
+        width: 360px;
+        margin: 0 2% 0 3%;
+        margin-bottom: 15%;
+    }
+
+    .The_Links {
+        position: static;
+    }
+
+    .footer {
+        background-color: green;
+        position: fixed;
+        bottom: 0px;
+
+
+    }
+}

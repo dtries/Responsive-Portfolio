@@ -1,0 +1,76 @@
+<!-- Contact Page for Personal Portfolio Site -->
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+
+    <div class="top_knot">
+        <!-- Header with Name -->
+        <h1>Dennis T. Ries</h1>        
+
+        <!-- Navigation Bar -->
+        <nav class="topnav">          
+            <!-- <h1 id="Name_Tag">Dennis T. Ries</h1> -->
+            <div class="The_Links"> 
+                <!-- <h1 id="Name_Tag">Dennis T. Ries</h1> -->
+                <a href="index.html" id="index">About</a>
+                <c>|</c>
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <c>|</c>
+                <a class="active" href="contact.html"id="contact">Contact</a>
+            </div>
+        </nav>
+
+    </div>
+    <br>
+
+    <body>
+
+
+        
+        <!-- Wrapper to set boundaries for page content -->
+        <div class="contact_wrapper">
+            <!-- Content of Page Including Header, Image, and Description -->
+            <section id="contact_content">
+                <h2>Contact</h2>
+                <hr>
+                <p></p>
+                
+                <label id="WhoIsIt" for="name">Name:</label>
+                <br>
+                
+                <input type="text" id="name" name="name" required
+                        minlength="2" maxlength="200" size="50">
+                <br><br>
+
+                <label for="Email">Email:</label>
+                <br>
+                <input type="text" id="Email" name="Email" required
+                        minlength="2" maxlength="200" size="50">
+                <br><br>
+                
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="messasge" placeholder="Write your message here..."></textarea>
+                <br>
+                <p></p>
+                <input type="submit" value="Submit">
+                
+
+            </section>
+
+        </div>
+
+        <!-- Sticky Footer -->
+        <footer class="footer">Copyright</footer>
+
+    </body>
+
+</html>
