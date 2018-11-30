@@ -244,9 +244,9 @@ right: 590px;
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 980px) {
 
-    .footer {
+    /* .footer {
         background-color: blue;
-    }
+    } */
 
     #index_content,
     #contact_content,
@@ -259,9 +259,9 @@ right: 590px;
 
 @media screen and (max-width: 768px) {
 
-    .footer {
+    /* .footer {
         background-color: orange;
-    }
+    } */
 
     #index_content,
     #contact_content,
@@ -305,7 +305,7 @@ right: 590px;
     }
 
     .footer {
-        background-color: green;
+        /* background-color: green; */
         position: fixed;
         bottom: 0px;
 
