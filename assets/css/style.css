@@ -180,6 +180,12 @@ h2 {
     opacity: .9;
 }
 
+.Text-Image-1 a {
+    color: #D3D3D3;
+    text-decoration: none;
+
+}
+
 /* .Text-Image-1,
 .Text-Image-3,
 .Text-Image-5, {
@@ -257,7 +263,7 @@ right: 590px;
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
 
     /* .footer {
         background-color: orange;
